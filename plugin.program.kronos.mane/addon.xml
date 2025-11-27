@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<addon id="plugin.program.kronos.mane" name="Kronos Mane" version="8.0.5" provider-name="Kronos Team">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="resources/lib/default.py">
+        <provides>executable</provides>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Clear Kronos Cached files</summary>
+        <description>Kronos Mane Wipes the Mess and Keeps your System Clean. Clear Cache, Purge Thumbnails, Nuke Leftover Files — All wrapped in a Sexy Fullscreen GUI built for speed and control. Cleaning has never looked this good.</description>
+        <platform>all</platform>
+        <assets>
+            <icon>resources/media/k_logo.png</icon>
+        </assets>
+    </extension>
+</addon>
